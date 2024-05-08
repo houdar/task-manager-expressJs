@@ -6,6 +6,7 @@ const notFound = require('./middleware/not_found')
 const errorHandler =require('./middleware/error')
 
 require('dotenv').config()
+
 //* Json middleware  */
 app.use(express.json())
 app.use(express.static('./public'))
